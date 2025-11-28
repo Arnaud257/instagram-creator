@@ -12,16 +12,25 @@
   <!-- Babel -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- Tailwind -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Lucide React CDN -->
-  <script src="https://unpkg.com/lucide-react@latest/dist/lucide-react.min.js"></script>
+  <!-- Lucide (UMD) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    }
+  </style>
 </head>
+
 <body>
   <div id="root"></div>
 
-  <!-- ton script React -->
+  <!-- Application -->
   <script type="text/babel" src="app.js"></script>
 </body>
 </html>
