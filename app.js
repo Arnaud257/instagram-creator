@@ -1,9 +1,5 @@
 // Importer les icônes depuis un CDN
-const { 
-  Upload, Mail, Phone, User, Lock, 
-  Image, Check, Copy, Download, 
-  Eye, EyeOff, AlertCircle, ExternalLink 
-} = window.lucide;
+const { Upload, Mail, Phone, User, Lock, Image, Eye, EyeOff } = lucideReact;
 
 function InstagramAccountCreator() {
   const [step, setStep] = React.useState(1);
@@ -142,4 +138,5 @@ script.onload = () => {
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(<InstagramAccountCreator />);
 };
+
 document.head.appendChild(script);
